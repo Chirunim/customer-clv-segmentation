@@ -1,0 +1,2 @@
+-- run_clv_queries.sql
+-- SQL queries for aggregating and analysing customer lifetime value metrics.
