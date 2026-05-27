@@ -1,6 +1,6 @@
 # Customer Lifetime Value and Segmentation Pipeline
 
-> An end-to-end analytics pipeline that generates, scores, and segments 100,000 domestic energy customers by Customer Lifetime Value — delivering actionable retention and cross-sell intelligence via SQL analysis and Power BI dashboards.
+> An end-to-end analytics pipeline that generates, scores, and segments 100,000 domestic energy customers by Customer Lifetime Value, delivering actionable retention and cross-sell intelligence via SQL analysis and Power BI dashboards.
 
 ---
 
@@ -275,6 +275,6 @@ customer-clv-segmentation/
 
 ---
 
-## Data Note
+## Note
 
 All data in this project is **synthetically generated** using Python's `numpy.random` module with a fixed seed (`SEED = 42`) for full reproducibility. No real customer data has been used at any stage. Distributions, tariff splits, spend ranges, churn rates, and behavioural flags are calibrated to reflect realistic patterns in the UK domestic energy retail market but do not represent or derive from any actual customer records. Running `generate_clv_data.py` with `SEED = 42` will always produce an identical dataset.
